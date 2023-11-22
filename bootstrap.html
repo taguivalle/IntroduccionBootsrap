@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Bootstrap</title>
+    <!-- Link de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link de bootstrap para el JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Con este link se inserta el icono en el título de la pagina "Introducción a JavaScript. " 
+    https://imagen.online-convert.com/es/convertir/png-a-ico. -->
+    <link rel="shortcut icon" href="icons/bootstrap.ico" type="image/x-icon">
+    <!-- Los preloads nos permite recargar más rápidamente. Para este caso de normalize. -->
+    <link rel="stylesheet" href="css/normalize.css" as="css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Este es el preload del google font. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap">
+    <!-- Los preloads nos permiten recargar más rápidamente. Para este caso de los estilos. -->
+    <link rel="stylesheet" href="css/styles.css" crossorigin="crossorigin" as="css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link para el css de bootstrap. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Tutorial de Bootstrap con la profe ANDREA</h1>
+        <p>En esta PÁRRAFO se encuentra información básica del curso de html5. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Iure, maxime. Sed corrupti consequatur ipsam. Animi rem hic quisquam tempora. Quia, enim!
+            Soluta qui iste hic eos nemo ipsa obcaecati consequatur.</p>
+        <p>Las filas se apilan un encima de la otra automáticamente cuando la pantalla en diferentes dispoitivos</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color: lavender;">Columna Uno</div>
+            <div class="col-sm-4" style="background-color: lavenderblush;">Columna Dos</div>
+            <div class="col-sm-4" style="background-color: lavender;">Columna Tres</div>
+        </div><br><br>
+        <h2>Otra forma de columnas</h2><br>
+        <d class="row">
+            <div class="col-sm-4" style="background-color: lavender;">Columna Uno</div>
+            <div class="col-sm-48" style="background-color: lavenderblush;">Columna Dos</div>
+            <div class="container">
+                <h2>Colores contextuales </h2>
+                <p>Utilice las clases contextuales para proporcinar "El significado a través de los Colores"</p>
+                <p class="text-muted">Este texto está silenciado</p>
+                <p class="text-primary">Este texto es importante</p>
+                <p class="text-success">Este texto indica éxito</p>
+                <p class="text-info">Este texto representa alguna información</p>
+                <p class="text-warning">Este texto representa una advertencia</p>
+                <p class="text-danger">Este texto representa peligro</p>
+            </div>
+            <div class="table-responsive">
+                <p>La clase table table-bordered agrega bordes a una tabla</p>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Firsts Name</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                        <th>email</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Maria@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                        <td>franccico@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                        <td>rolan@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                        <td>helen@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                        <td>yoshi@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                        <td>giovanni@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-responsive">
+                <p>La clase table table-hover agrega efecto con el mouse</p>
+                <table class="table table-hover">
+                    <tr>
+                        <th>Firsts Name</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                        <th>email</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Maria@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                        <td>franccico@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                        <td>rolan@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                        <td>helen@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                        <td>yoshi@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                        <td>giovanni@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container">
+                <h2>Esquinas redondeadas</h2>
+                <p>La clase img-rounded muestra la imagen con las esquinas redondeadas; pero, tener en cuenta que para
+                    este ejemplo lo hice con estilos CSS</p>
+                <img class="img-rounded" src="img/tecnologia.jpg" alt="imagen de tecnología">
+            </div>
+            <div class="container1">
+                <h2>Well para una especie de caja</h2>
+                <div class="well">Clase Well</div>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -2,6 +2,10 @@
     background-color: blanchedalmond;
 }
 
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
 .title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -61,4 +65,12 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+.img-rounded {
+    background-image: url(../img/tecnologia.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
 }
